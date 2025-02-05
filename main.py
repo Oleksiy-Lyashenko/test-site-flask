@@ -108,7 +108,7 @@ def admin_only(f):
     return decorated_function
 
 
-# TODO: Use Werkzeug to hash the user's password when creating a new user.
+# Use Werkzeug to hash the user's password when creating a new user.
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     form = RegisterForm()
