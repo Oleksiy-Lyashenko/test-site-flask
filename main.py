@@ -14,6 +14,7 @@ from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
 
 
 '''
+Develop commit
 Make sure the required packages are installed: 
 Open the Terminal in PyCharm (bottom left). 
 
